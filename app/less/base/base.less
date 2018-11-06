@@ -1,0 +1,38 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #000000;
+}
+
+img {
+	/* Чтобы картинки не были больше родителя */
+	max-width: 100%;
+	/* Чтобы высота автоматически подгонялась под ширину */
+	height: auto;
+	/* Чтобы убрать лишний отступ под картинками */
+	display: block;
+}
+
+.wrapper {
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-wrapper {
+	width: 930px;
+	background-color: #ffffff;
+	padding: 30px 15px; /* в макете боковые отступы 30, но задаем 15, еще 15 добавится от бутстрапа */
+}
+
+.content-wrapper--rounded {
+	border-radius: 10px;
+}
+
+.content-wrapper--shadow {
+	box-shadow: 3px 4px 10px rgba(186, 186, 186, 0.44);
+}
+
+.hidden {
+	display: none;
+}
